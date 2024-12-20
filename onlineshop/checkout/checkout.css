@@ -1,0 +1,9 @@
+#checkout-form {
+    display: none; /* Sembunyikan formulir secara default */
+}
+#checkout-form.hidden {
+    display: none;
+}
+#checkout-form.visible {
+    display: block;
+}

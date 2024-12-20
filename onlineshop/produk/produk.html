@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Produk</title>
+    <link rel="stylesheet" href="produk.css">
+    <link href="https://fonts.googleapis.com/css2?family=Droid+Arabic+Kufi:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <h1 dir="rtl">فتى حجاب - Menu Produk</h1>
+        <nav>
+            <ul class="category-menu">
+                <button onclick="window.location.href='index.html'" class="back-home-btn">Kembali ke
+                    Beranda</button>
+
+                <li><button class="filter-btn" data-category="all">Semua</button></li>
+                <li><button class="filter-btn" data-category="Aksesoris">Pashmina</button></li>
+                <li><button class="filter-btn" data-category="Fashion">Bergo</button></li>
+                <li><button class="filter-btn" dat a-category="Elektronik">Pet Jersey</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-grid" id="product-grid">
+            <!-- Produk akan di-render di sini -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Toko Online. All rights reserved.</p>
+    </footer>
+
+    <script src="produk.js"></script>
+</body>
+
+</html>
